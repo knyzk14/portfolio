@@ -1,0 +1,15 @@
+@media (max-width: 480px) {
+    .pc-only {
+        display: none;
+    }
+
+    body {
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 481px) {
+    .sp-only {
+        display: none;
+    }
+}
