@@ -1,6 +1,7 @@
 @font-face {
     font-family: "makinas4";
-    src: url("/res/fonts/Makinas-4-Flat.otf") format("opentype");
+    src: url("/res/fonts/makinas-4-flat-subset.woff2") format("woff2"),
+         url("/res/fonts/makinas-4-flat-subset.woff") format("woff");
 }
 
 html,body {
@@ -35,6 +36,7 @@ header {
     padding: 15px 50px;
     transition: transform 1s ease;
     transform: translateY(-100%);
+    z-index: 1000;
 
     h1 {
         display: inline-block;
@@ -101,13 +103,21 @@ header {
 main {
     min-height: 1000px;
     width: 100%;
-    max-width: 850px;
+    max-width: 1100px;
     padding: 20px;
     margin: 0;
     box-sizing: border-box;
 }
 
 section {
+    scroll-margin-top: 80px;
+    margin-bottom: 30px;
+    padding: 20px;
+
+    h2 {
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
 }
 
 footer {
@@ -133,8 +143,13 @@ footer {
     }
 }
 
+.mute {
+    color: #c0c0c0;
+    font-size: 0.8em;
+}
+
 @media (max-width: 650px) {
-    header h1 {
+    header {
         display: none;
     }
 }

@@ -1,0 +1,31 @@
+#ky-rain {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 200vh;
+  pointer-events: none;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.kyn-pf-drop-m3q {
+  position: absolute;
+  width: 2px;
+  height: 80px;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(225, 223, 223, 0.6));
+  transform-origin: bottom;
+  animation: kyn-pf-fall-a9b linear infinite;
+}
+
+/* 落下アニメーション */
+@keyframes kyn-pf-fall-a9b {
+  0% {
+    transform: translateY(-200px) translateX(0) rotate(8deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(120vh) translateX(-200px) rotate(8deg);
+    opacity: 0.3;
+  }
+}

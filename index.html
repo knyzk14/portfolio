@@ -1,48 +1,209 @@
 <!DOCTYPE html>
 <html lang="ja">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="嘉納優月のポートフォリオ">
-        <meta property="og:title" content="嘉納優月's Portfolio">
-        <meta property="og:description" content="嘉納優月のポートフォリオ">
-        <meta property="theme-color" content="#ffffff">
-        <title>嘉納優月's Portfolio</title>
-        <link rel="icon" href="favicon.png" type="image/png">
-        <link rel="stylesheet" href="/css/common.css">
-        <link rel="stylesheet" href="/css/only.css">
-        <link rel="stylesheet" href="/css/top.css">
-        <link rel="stylesheet" href="/css/about.css">
-        <link rel="stylesheet" href="/css/scrollbar.css">
-    </head>
-    <body>
-        <header class="pc-only" id="top">
-            <h1>Yuzuki's Portfolio</h1>
-            <div></div>
-            <div id="menu">
-            <ul>
-                <li><a href="#top">Top</a><hr></li>
-                <li><a href="#about">About</a><hr></li>
-                <li><a href="#works">Works</a><hr></li>
-                <li><a href="#Links">Links</a><hr></li>
-                <li><a href="#contact">Contact</a><hr></li>
-            </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Kyonshi's Portfolio" />
+    <meta property="og:title" content="Kyonshi's Portfolio" />
+    <meta property="og:description" content="Kyonshi's Portfolio" />
+    <meta property="theme-color" content="#ffffff" />
+    <title>Kyonshi's Portfolio</title>
+    <link rel="icon" href="favicon.png" type="image/png" />
+    <link rel="stylesheet" href="/css/common.css" />
+    <link rel="stylesheet" href="/css/only.css" />
+    <link rel="stylesheet" href="/css/top.css" />
+    <link rel="stylesheet" href="/css/about.css" />
+    <link rel="stylesheet" href="/css/scrollbar.css" />
+    <link rel="stylesheet" href="/css/rain.css" />
+    <link rel="stylesheet" href="/css/skills.css" />
+    <link rel="stylesheet" href="/css/works.css" />
+    <link rel="stylesheet" href="/css/contacts.css" />
+  </head>
+  <body>
+    <header class="pc-only">
+      <h1>Kyonshi's Portfolio</h1>
+      <div></div>
+      <div id="menu">
+        <ul>
+          <li>
+            <a href="#top">Top</a>
+            <hr />
+          </li>
+          <li>
+            <a href="#skills">Skills</a>
+            <hr />
+          </li>
+          <li>
+            <a href="#works">Works</a>
+            <hr />
+          </li>
+          <li>
+            <a href="#contacts">Contact</a>
+            <hr />
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section id="top">
+        <h2>About me</h2>
+        <div class="profile">
+          <img src="/res/imgs/icon.png" id="profile-img" />
+          <div>
+            <h1>Kyonshi</h1>
+            <p class="mute">高専2年</p>
+            <p>Web Developer / Minecraft MOD Developer / Software Engineer / Note Writer</p>
+            <hr />
+            <p>
+              基本的にはWeb開発、デザイン、ソフトウェア開発、<br />趣味でMinecraft MOD開発、Note執筆なども行っています。
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+          <div class="skills pc-only">
+            <div class="skill">
+              <h3>Web Development</h3>
+              <div class="skill-icons">
+                <img src="https://skillicons.dev/icons?i=html" height="48" class="skill-icon" data-title="HTML" />
+                <img src="https://skillicons.dev/icons?i=css" height="48" class="skill-icon" data-title="CSS" />
+                <img src="https://skillicons.dev/icons?i=js" height="48" class="skill-icon" data-title="JavaScript" />
+                <img src="https://skillicons.dev/icons?i=ts" height="48" class="skill-icon" data-title="TypeScript" />
+                <img src="https://skillicons.dev/icons?i=react" height="48" class="skill-icon" data-title="React" />
+                <img src="https://skillicons.dev/icons?i=vite" height="48" class="skill-icon" data-title="Vite" />
+              </div>
             </div>
-        </header>
-        <main>
-            <section id="about">
-                <h2>About me</h2>
-                <div class="profile">
-                    <img src="/res/imgs/icon.png">
-                    <div></div>
 
-                </div>
-            </section>
-        </main>
-        <footer>
-            <hr>
-            <p>© 2026 Yuzuki Kanou  <span class="pc-only"> All Rights Reserved.</span></p>
-        </footer>
-        <script src="/js/main.js"></script>
-    </body>
+            <div class="skill">
+              <h3>Software Development</h3>
+              <div class="skill-icons">
+                <img src="https://skillicons.dev/icons?i=go" height="48" class="skill-icon" data-title="Go" />
+                <img src="https://skillicons.dev/icons?i=python" height="48" class="skill-icon" data-title="Python" />
+                <img src="https://skillicons.dev/icons?i=tauri" height="48" class="skill-icon" data-title="Tauri" />
+                <img
+                  src="https://skillicons.dev/icons?i=firebase"
+                  height="48"
+                  class="skill-icon"
+                  data-title="Firebase"
+                />
+                <img src="https://skillicons.dev/icons?i=fastapi" height="48" class="skill-icon" data-title="FastAPI" />
+                <img src="https://skillicons.dev/icons?i=docker" height="48" class="skill-icon" data-title="Docker" />
+              </div>
+            </div>
+
+            <div class="skill">
+              <h3>Other Skills</h3>
+              <div class="skill-icons">
+                <img src="https://skillicons.dev/icons?i=git" height="48" class="skill-icon" data-title="Git" />
+                <img src="https://skillicons.dev/icons?i=github" height="48" class="skill-icon" data-title="GitHub" />
+                <img src="https://skillicons.dev/icons?i=vscode" height="48" class="skill-icon" data-title="VS Code" />
+                <img src="https://skillicons.dev/icons?i=ubuntu" height="48" class="skill-icon" data-title="Ubuntu" />
+                <img src="https://skillicons.dev/icons?i=md" height="48" class="skill-icon" data-title="Markdown" />
+                <img
+                  src="https://skillicons.dev/icons?i=idea"
+                  height="48"
+                  class="skill-icon"
+                  data-title="IntelliJ IDEA"
+                />
+                <img src="https://skillicons.dev/icons?i=gradle" height="48" class="skill-icon" data-title="Gradle" />
+                <img
+                  src="https://skillicons.dev/icons?i=ableton"
+                  height="48"
+                  class="skill-icon"
+                  data-title="Ableton Live"
+                />
+              </div>
+            </div>
+            <!-- <div class="skill">
+              <h3>保有資格</h3>
+              <p>・応用情報技術者</p>
+            </div> こうなりたい-->
+            <p class="mute" style="text-align: right; margin-right: 50px;">And more...</p>
+          </div>
+          <div class="skill-desc is-active">
+            <h1>Overview</h1>
+            <p>ホバーでスキルの詳細を確認</p>
+          </div>
+        </div>
+      </section>
+      <section id="works">
+        <h2>Works</h2>
+        <div class="works-container">
+          <a href="https://github.com/knyzk14/maze-visualizer" class="work link" target="_blank" rel="noopener noreferrer">
+            <div class="link-icon">
+              <h3>Maze Visualizer</h3>
+            </div>
+            <p>所属している高専の自由課題にて作成した迷路生成、探索アルゴリズムの可視化ツールです。<br /><br>棒倒し法、穴掘り法、深さ優先探索、幅優先探索、A*探索などを実装しています。</p>
+            <img src="/res/imgs/maze-vi.png" />
+            <p class="mute">2026/07/26</p>
+          </a>
+          <a href="https://github.com/knyzk14/kosen_todo" class="work link" target="_blank" rel="noopener noreferrer">
+            <div class="link-icon">
+              <h3>Kosen Todo</h3>
+            </div>
+            <p>所属している高専のハッカソンにて作成した共有カレンダー機能付きのToDoアプリです。<br><br>インフラ、バックエンド、一部フロントエンドを担当しました。</p>
+            <img src="/res/imgs/kosentodo.png" />
+            <p class="mute">2026/11/06</p>
+          </a>
+          <a href="https://kotob.kyonshi.com/" class="work link" target="_blank" rel="noopener noreferrer">
+            <div class="link-icon">
+              <h3>Kotob</h3>
+            </div>
+            <p>Tanahiro2010というユーザーとの共同開発を行い、<br>Gemini APIを用いたCLI翻訳ツールを制作しました。</p>
+            <img src="/res/imgs/kotob.png" />
+            <p class="mute">2026/03/10</p>
+          </a>
+          <a href="https://github.com/kyonshi0104/GitHue" class="work link" target="_blank" rel="noopener noreferrer">
+            <div class="link-icon">
+              <h3>GitHue</h3>
+            </div>
+            <p>gitHub.comの配色をカスタマイズするChrome,Edge用拡張機能です。</p>
+            <img src="/res/imgs/githue.png" />
+            <p class="mute">2025/12/20</p>
+          </a>
+          <a href="https://modrinth.com/mod/sanity-level" class="work link" target="_blank" rel="noopener noreferrer">
+            <div class="link-icon">
+              <h3>Sanity Level MOD</h3>
+            </div>
+            <p>Minecraft Java EditionのMODです。<br>精神ゲージ及び精神状態を管理するシステムを追加します。</p>
+            <img src="/res/imgs/sanitylevel.png" />
+            <p class="mute">2026/03/10</p>
+          </a>
+          <a href="https://github.com/kyonshi0104/Minimal-Media-Overlay" class="work link" target="_blank" rel="noopener noreferrer">
+            <div class="link-icon">
+              <h3>Minimal Media Overlay</h3>
+            </div>
+            <p>Lively Wallpaperで利用できる、時計、CPUとメモリ、オーディオビジュアライザーを含むメディアトラックを備えたWeb壁紙です。</p>
+            <img src="/res/imgs/mmo.png" />
+            <p class="mute">2026/03/27</p>
+          </a>
+          <p class="mute show-more">Show more...</p>
+        </div>
+      </section>
+      <section id="contacts">
+        <h2>Contacts</h2>
+        <p></p>
+        <div class="contacts-container">
+          <a href="mailto:contact@kyonshi.com" class="contact-link">
+            <div class="link-mail"></div>
+            <p>メール</p>
+          </a>
+          <a href="https://github.com/knyzk14" class="contact-link" target="_blank" rel="noopener noreferrer">
+            <div class="link-github"></div>
+            <p>GitHub</p>
+          </a>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <hr />
+      <p>© 2026 kyonshi <span class="pc-only"> All Rights Reserved.</span></p>
+    </footer>
+    <script src="/js/main.js"></script>
+    <script src="/js/rain.js"></script>
+    <script src="/js/skills.js"></script>
+    <div id="ky-rain"></div>
+  </body>
 </html>
