@@ -77,8 +77,8 @@
             margin-top: 8px;
             color: #fcfbfb;
             font-size: 15px;
-            mask-image: url("/res/imgs/link.svg");
-            -webkit-mask-image: url("/res/imgs/link.svg");
+            mask-image: url("../res/imgs/link.svg");
+            -webkit-mask-image: url("../res/imgs/link.svg");
             background-color: #fcfbfb;
     }
 }
