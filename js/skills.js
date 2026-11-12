@@ -35,6 +35,7 @@ const defaultText = descText.textContent;
 
 let textChangeTimeout; // テキスト変更の遅延用
 let resetTimeout;      // 初期化の遅延用
+let leaveTimeout;      // マウス離脱時の遅延用
 
 skillIcons.forEach(icon => {
   icon.addEventListener('mouseenter', (e) => {
