@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   if (!wrapper || !toggleButton) return;
 
   const dropCount = 60;
-  let isRaining = false;
+  let isRaining = true;
 
   const startRain = () => {
     for (let i = 0; i < dropCount; i++) {
@@ -35,4 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
     isRaining = !isRaining;
   });
+
+  startRain();
+
 });
