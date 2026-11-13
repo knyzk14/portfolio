@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const startRain = () => {
     for (let i = 0; i < dropCount; i++) {
       const drop = document.createElement("div");
-      drop.classList.add("kyn-pf-drop-m3q");
+      drop.classList.add("drop");
 
       const posX = Math.random() * 140 - 10; 
       const duration = Math.random() * 0.6 + 0.6; 
